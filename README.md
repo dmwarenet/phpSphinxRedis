@@ -12,5 +12,5 @@ sudo pear install nrk/Predis
 
 ***Deleting all the cached search results***
 
-`redis-cli KEYS "sphinx_query_*" | xargs redis-cli DEL`
+`redis-cli KEYS "sphinx_search_*" | xargs redis-cli DEL`
 
